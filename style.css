@@ -1,0 +1,119 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:whitesmoke
+}
+.right_navbar{
+    padding: 20px;
+}
+    
+.navbar_elements_right{
+    list-style-type: none;
+}
+    
+li{
+    display: inline;
+    padding: 20px 40px;
+}
+
+.left_navbar{
+    background-image: url(_e4fcc34c-4277-4bf1-8368-92dc4c4944bf.jpeg);
+    height: 73px;
+    width: 90px;
+    background-size: cover;
+}
+
+.top_navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.page_title{ 
+    height: 400px;
+    width: auto;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+}
+
+.center-imagebox{
+    background-image: url(pexels-pixabay-301920.jpg);
+    height: 500px;
+    width: auto;
+    margin: auto;
+    padding: 101px 50px;
+    background-size: cover;
+    margin: 100px 50px;
+}
+
+.third-box{
+    height: 500px;
+    width: auto;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_box{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid black; */
+    margin: 10px 75px;
+    align-items: center;
+}
+
+.selection-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:10px 50px;
+}
+
+.left-box-footer{
+    height: 100px;
+    width: auto;
+    background-color: beige;
+    padding: 30px 10px;
+}
+
+.list-footer.li{
+    margin-top: 20px;
+}
+
+.login-button{
+    height: 80px;
+    width: 200px;
+}
+
+.inner-image-cardbox-1{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    background-image: url("https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg");
+    background-size: cover;
+    border-radius: 10px;
+
+}
+.inner-image-cardbox-2{
+    height: 300px;
+    width: 300px;
+    /* background-color: aquamarine; */
+    background-image: url("https://play-lh.googleusercontent.com/vSNQds6F5roxdN4-a16JnQ9dWQVSZZ8OH4-iMAcNLaFQd3ItZWU8rOPOql4Ew5Hh1esX");
+    background-size: cover;
+    border-radius: 10px;
+
+}
+.inner-image-cardbox-3{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    background-image: url("https://t3.ftcdn.net/jpg/04/92/96/18/360_F_492961866_MIqCTiGZD0ZzjXTAfYCEJdGaeCYAZSAT.jpg");
+    background-size: cover;
+    border-radius: 10px;
+
+}

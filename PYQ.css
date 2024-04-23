@@ -1,0 +1,65 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.side-navbar{
+    /* border: 1px solid grey; */
+    width: 200px;
+    height: 100vh;
+    position: absolute;
+    background-color: whitesmoke;
+    
+}
+.unordered-list{
+    list-style-type: none;
+    margin-left: -30px;
+}   
+
+.bold{
+    font-weight: bold;
+}
+
+.top-head{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 5px 0px ;
+    padding: 5px 0;
+    
+}
+.unordered-list li{
+    margin:10px 20px;
+}
+
+.outer-box{
+    height: 200px;
+    width: auto;
+    background-color: whitesmoke;
+    /* border: 1px solid grey; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.section-box{
+    padding: 10px;
+    position: relative;
+    margin-left: 210px;
+    height: 345px;
+    width: auto;
+    background-color: whitesmoke;
+    /* border: 1px solid grey; */
+}
+.box2{
+    margin-top: 10px;
+}
+
+.image-box{
+    height: 100px;
+    width: 150px;
+    background-image: url("https://assets.asana.biz/transform/d2ffb5c8-a7c2-4e39-8447-f8e2501c5bdc/article-project-planning-project-design-2x");
+    background-size: contain;
+
+}
